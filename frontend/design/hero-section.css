@@ -1,0 +1,39 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/frontend/design/images/hero\ image.jpg);
+  background-size: cover;
+  height: 25em;
+}
+
+.call-to-action a {
+  display: inline-block;
+  color: white;
+  background: green;
+  padding: 0.3vw 2vw;
+  border-radius: 1em;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  margin-left: auto;
+}
+
+#learn-more {
+  background: none;
+  border: solid 0.18rem white;
+  padding: 0.17vw 2vw;
+  margin-left: 1rem;
+}
+
+.call-to-action > * {
+  color: white;
+  margin: 0 auto;
+  padding-top: 5rem;
+  line-height: 2rem;
+}
+
+.call-to-action-input {
+  display: flex;
+  background: gray;
+  padding: 1rem 0;
+}
