@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5vw 0;
+  font-size: 1.4vw;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-right: auto;
+  background: green;
+  color: white;
+  padding: 0.5vw;
+  border-radius: 50%;
+  margin-left: 5vw;
+  font-size: 1.4vw;
+
+}
+
+.logon {
+  padding: 0 20px;
+  display: inline-block;
+}
+
+#login-link {
+  color: white;
+  background: green;
+  padding: 0.5vw 2vw;
+  border-radius: 1em;
+  margin-right: 2rem;
+}
+
+.search-restaurant {
+  border: none;
+  padding: 0.5rem 8rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.call-to-action-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
