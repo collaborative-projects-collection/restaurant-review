@@ -3,7 +3,7 @@
   flex-direction: column;
   background-image: url(/frontend/design/images/hero\ image.jpg);
   background-size: cover;
-  height: 25em;
+  height: 27.5em;
 }
 
 .call-to-action a {
@@ -34,6 +34,11 @@
 
 .call-to-action-input {
   display: flex;
-  background: gray;
+  background: rgb(70, 69, 69);
   padding: 1rem 0;
+}
+
+.icon {
+  position: absolute;
+  right: 38%;
 }
