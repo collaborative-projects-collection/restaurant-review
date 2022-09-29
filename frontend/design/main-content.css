@@ -1,49 +1,133 @@
-.row-1,
-.row-2 {
+.cards {
   display: flex;
-  align-items: flex-start;
-  flex-basis: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  width: 95%;
   gap: 0.5rem;
-  padding: 2rem 2rem;
+  justify-content: center;
+}
+
+.card {
+  width: 24%;
+  height: 25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 0.8em;
+  margin-bottom: 0.5rem;
+  background-color: rgba(27, 124, 27, 0.65);
+}
+
+.content {
+  text-align: center;
+  margin: 1rem 0;
+  color: white;
+}
+.card-img-1 {
+  background-image: url(/frontend/design/images/pexels-brett-sayles-1115251.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.card-img-2 {
+  background-image: url(/frontend/design/images/pexels-mat-brown-1395967.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-img-3 {
+  background-image: url(/frontend/design/images/pexels-pixabay-262047.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-img-4 {
+  background-image: url(/frontend/design/images/pexels-rene-asmussen-1581384.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-img-5 {
+  background-image: url(/frontend/design/images/pexels-tom-balabaud-1579739.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-img-6 {
+  background-image: url(/frontend/design/images/pexels-brett-sayles-1115251.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-img-7 {
+  background-image: url(/frontend/design/images/pexels-pixabay-262047.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-img-8 {
+  background-image: url(/frontend/design/images/pexels-mat-brown-1395967.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
 }
 
 img {
-  border-radius: 10px;
   width: 100%;
-  height: 400px;
-}
-
-.rating {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 2rem;
+  height: 15rem;
 }
 
 .rating-title {
-  padding: 1rem 0 1rem 24.9%;
+  padding: 1.5rem 0 1rem 21%;
+  width: 100%;
 }
-.rating-cont {
-  margin: 0 auto;
-  width: 50%;
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.rating-container > * {
+  flex-basis: 100%;
+  margin-left: 1rem;
 }
 
 .feedback {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
-  background: gray;
 }
 
 .feedback-section {
-  background: gray;
-  padding: 3rem 0;
+  background: rgba(128, 128, 128, 0.1);
+  padding: 2rem 0;
 }
 
 .feedback-content {
-  background: green;
+  background: rgb(27, 124, 27);
   flex-basis: 30%;
-  border-radius: 0.2rem;
-  padding: 3em;
+  border-radius: 0.5rem;
+  padding: 3em 1rem;
+  color: white;
 }
 
 .feedback-title {

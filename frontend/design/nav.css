@@ -25,7 +25,6 @@ header {
   border-radius: 50%;
   margin-left: 5vw;
   font-size: 1.4vw;
-
 }
 
 .logon {
@@ -43,7 +42,7 @@ header {
 
 .search-restaurant {
   border: none;
-  padding: 0.5rem 8rem;
+  padding: 0.5rem 10%;
   font-size: 1rem;
   border-radius: 1rem;
 }
@@ -53,4 +52,9 @@ header {
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
+}
+
+.call-to-action-input p {
+  color: white;
+  margin-left: 2rem;
 }
